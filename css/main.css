@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+:root {
+    --bg-clr-main: #909090;
+    --bg-clr-nav: #00d6aa;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*white-space: nowrap;*/
+}
+
+body{
+    height: 87.5vh;
+    position: relative;
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+}
+
+pre{
+    white-space: pre-wrap;
+}
+
+.content {
+    color:white;
+    background-color: #333;
+    display: grid;
+    place-content: center;
+    min-height: 100% ;
+    margin-top: 3em;
+}
+
+.content section{
+    min-height: 80%;
+    width: 80vw;
+    display: grid;
+    place-content: center;
+    background-color: var(--bg-clr-main);
+}
+
+.graciela{
+    display: grid;
+    place-items: center;
+}
+
+.graciela p{
+    margin: .5em;
+}
+
+.bill{
+    margin: 2em;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 15px;
+    box-shadow: #333333 0 0  15px;
+    /*border:red solid 15px;*/
+}

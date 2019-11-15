@@ -1,0 +1,52 @@
+[{
+  "producto": "Papas",
+  "precio": 99.99,
+  "desc": "Las mejores papas del Perú",
+  "texto": "esto es el texto del producto  oficia de descripcion pero en realidad es un texto para probar el layout de la pagina  la unica razon por la que no es un lorem ipsum es por que el IDE no me reconocio el lorem+TAB  para auto generar el texto, pudrete franders",
+  "img1": "assets/imgs/papa.jpg",
+  "img2": "assets/imgs/papa2.jpg",
+  "img3": "assets/imgs/papa2.png"
+}, {
+  "producto": "Bicicleta Plegable",
+  "precio": 99.99,
+  "desc": "Bicicleta para personas Pequeñas",
+  "texto": "esto es el texto del producto oficia de descripcion pero en realidad es un texto para probar el layout de la pagina la unica razon por la que no es un lorem ipsum es por que el IDE no me reconocio el lorem+TAB  para auto generar el texto, pudrete franders",
+  "img1": "assets/imgs/bici.jpg",
+  "img2": "assets/imgs/bici2.jpg",
+  "img3": "assets/imgs/bici3.jpg"
+}, {
+  "producto": "Compresas Para el dolor",
+  "precio": 99.99,
+  "desc": "Compresa para el dolor Calientes O frias",
+  "texto": "esto es el texto del producto oficia de descripcion pero en realidad es un texto para probar el layout de la pagina la unica razon por la que no es un lorem ipsum es por que el IDE no me reconocio el lorem+TAB  para auto generar el texto, pudrete franders",
+  "img1": "assets/imgs/compresa.jpg",
+  "img2": "assets/imgs/compresa2.jpg",
+  "img3": "assets/imgs/compresa3.jpg"
+}, {
+  "producto": "Deloreans",
+  "precio": 99.99,
+  "desc": "Auto delorean Ideal para el viaje en el tiempo",
+  "texto": "esto es el texto del producto oficia de descripcion pero en realidad es un texto para probar el layout de la pagina la unica razon por la que no es un lorem ipsum es por que el IDE no me reconocio el lorem+TAB  para auto generar el texto, pudrete franders",
+  "img1": "assets/imgs/delorean.jpg",
+  "img2": "assets/imgs/delorean2.jpg",
+  "img3": "assets/imgs/delorean3.jpg"
+},
+  {
+    "producto": "Diques",
+    "precio": 99.99,
+    "desc": "Comprate Un Dique",
+    "texto": "esto es el texto del producto oficia de descripcion pero en realidad es un texto para probar el layout de la pagina la unica razon por la que no es un lorem ipsum es por que el IDE no me reconocio el lorem+TAB  para auto generar el texto, pudrete franders",
+    "img1": "assets/imgs/dique.jpg",
+    "img2": "assets/imgs/dique2.jpg",
+    "img3": "assets/imgs/dique3.jpg"
+  },
+  {
+    "producto": "Random",
+    "precio": 99.99,
+    "desc": "Yo que se estoy re loco. Llevate una imagen random",
+    "texto": "Aca si que se pasan.\nUna salchicha en una cascara de banana.\nEl meme de Pikachu.\nY un ... Que es eso? se acabo me voy de aqui.",
+    "img1": "assets/imgs/random.jpeg",
+    "img2": "assets/imgs/random2.jpeg",
+    "img3": "assets/imgs/random3.jpeg"
+  }
+]

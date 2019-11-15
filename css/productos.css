@@ -1,0 +1,120 @@
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    grid-gap: 1em;
+}
+
+.productos h2 {
+    font-size: 2em;
+    grid-column: 1/4;
+    text-transform: uppercase;
+    border-bottom: var(--bg-clr-nav) solid .3em ;
+}
+
+.productos .producto {
+    background-color: cadetblue;
+    padding: 1.3em;
+    margin:   .5em;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    font-size: 1.3em;
+    font-weight: 900;
+    box-shadow: #333333 0 0 15px;
+    word-wrap: break-spaces;
+    width: 20em;
+}
+
+.productos .producto img {
+    display: block;
+    overflow: hidden;
+    height: 10em;
+    max-width: 10em;
+    border-radius: 5px;
+}
+
+.productos .producto .btn-ver{
+    text-decoration: none;
+    text-shadow: black 0 0 2em;
+    border-radius: 15px;
+    color: whitesmoke;
+    display: inline-grid;
+    place-items: center;
+    padding: 0 4em;
+    height: 2em;
+    margin-top: .7em;
+    box-shadow: #333333 0 5px 15px;
+    background-color: aqua;
+}
+
+.productos .producto .btn-ver:active{
+    box-shadow: #333333 0 0 0;
+}
+
+.producto-view{
+    display: grid;
+    grid-column: 1/4;
+    width: 100%;
+    place-items: center;
+}
+
+
+.producto-view-imgs{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+.producto-view-imgs img{
+    position: absolute;
+    display: inline-block;
+    height: 40vh;
+    width: 40vh;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    box-shadow: #333333 0 0 15px;
+    transition: all 300ms ease-in-out;
+}
+
+.producto-view-imgs img:nth-child(2){
+    z-index: 1;
+}
+
+.producto-view-imgs img:first-child{
+    height: 30vh ;
+    width: 30vh ;
+    border: red 2px;
+    z-index: 0;
+    transform: translateX(-160%) translateY(25%);
+}
+.producto-view-imgs img:last-child{
+    height: 30vh ;
+    width: 30vh ;
+    transform: translateX(60%) translateY(25%);
+    z-index: 0;
+}
+
+.producto-view p{
+    margin: 2em;
+    white-space: pre-wrap;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.producto-view-imgs img:hover{
+    height: 80vh ;
+    width: 80vh ;
+    border-radius: 15px;
+    z-index: 9;
+    box-shadow: rgba(0,0,0,.5) 0 0 0 100vh;
+    left: 50%;
+    top: -5em;
+    transform: translateX(-50%);
+}
+
+.producto-view-info{
+    width: 70%;
+}
